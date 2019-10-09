@@ -10,4 +10,12 @@ public class HomeControl {
         return "index";
 
     }
+
+@RequestMapping("/login")
+    public String login(){
+        return "login";
+}
+
+
+
 }
